@@ -4294,7 +4294,6 @@ var
   Ansi_Len : integer;
 
   i : integer;
-  fld : string;
 begin
 {$IFDEF DEBUG_VERY_LOUD}
   DebugEnter('TASQLite3BaseQuery.GetFieldData');
@@ -4309,6 +4308,7 @@ begin
 //             Result := MasterSource.DataSet.GetFieldData(Field, Buffer);
                Result := MasterSource.DataSet.GetFieldData(MasterSource.DataSet.Fields[i], Buffer);
        end;
+       Result := False;
        exit;
     end;
 
@@ -5331,11 +5331,6 @@ begin
 end;
 
 procedure TASQLite3Table.SQLiteMasterChanged;
-var
-  r, s              : string;
-  m, d              : string;
-  p                 : integer;
-  cAnd              : string;
 begin
   inherited;
   DebugLeave('TASQLite3Table.SQLiteMasterChanged');
