@@ -92,8 +92,8 @@ ExeDescription=Aducom Software -- SQLite Version 3 Design Time Components
 [Directories]
 OutputDir=
 UnitOutputDir=
-PackageDLLOutputDir=
-PackageDCPOutputDir=
+PackageDLLOutputDir=$(DELPHI)\Projects\bpl
+PackageDCPOutputDir=$(DELPHI)\Projects\bpl
 SearchPath=
 Packages=vcl;rtl;dbrtl;adortl;vcldb;vclx;bdertl;vcldbx;ibxpress;dsnap;cds;bdecds;qrpt;teeui;teedb;tee;dss;teeqr;visualclx;visualdbclx;dsnapcrba;dsnapcon;VclSmp;vclshlctrls;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;inetdb;nmfast;webdsnap;websnap;soaprtl;dbexpress;dbxcds;indy;dclaxserver;zip6
 Conditionals=
@@ -134,5 +134,3 @@ OriginalFilename=
 ProductName=
 ProductVersion=1.0.0.0
 Comments=
-[Excluded Packages]
-c:\arquivos de programas\borland\delphi7\Projects\Bpl\duel.bpl=(untitled)
