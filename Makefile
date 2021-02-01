@@ -6,6 +6,7 @@ REG_PATH=hkcu\software\borland\delphi\7.0
 all: build
 
 build:
+	@dof2cfg $(PROJECT).dof
 	@$(DCC) $(PROJECT).dpk
 	
 install-d7: build

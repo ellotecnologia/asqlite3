@@ -91,7 +91,7 @@ ImageBase=4194304
 ExeDescription=Aducom Software -- SQLite Version 3 Design Time Components
 [Directories]
 OutputDir=
-UnitOutputDir=
+UnitOutputDir=lib\d7
 PackageDLLOutputDir=$(DELPHI)\Projects\bpl
 PackageDCPOutputDir=$(DELPHI)\Projects\bpl
 SearchPath=
